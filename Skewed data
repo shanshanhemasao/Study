@@ -1,1 +1,8 @@
-
+https://www.itl.nist.gov/div898/handbook/eda/section3/histogr6.htm
+skewed distribution: non-symetric distribution (one tail is longer than the other)
+problems with skewed distribution: hard to estimate the typical value (in comparsion to normal distribution)
+reason: left-skewed caused by lower bounds/  right-skewed caused by upper bounds
+right skewed distribution is more common, for example, many measurements processess generate only positive data
+how to deal with right skewed distribution: reportng sample mean, mode and median
+how to deal with right skewed distribution: Determine the best-fit distribution (skewed-right) from the Weibull family (for the maximum)/Gamma family/Chi-square family/Lognormal family/Power lognormal family
+how to deal with right skewed distribution: consider a normalizing transformation such as the box-cox transformation
