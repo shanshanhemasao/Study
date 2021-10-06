@@ -1,0 +1,71 @@
+-kubernetes: coordinate and manage clusters
+
+AWS:挨踢茶馆 亚马逊云计算aws入门
+云： 类似于计算中心
+
+lesson 1
+IAAS: 基础设施，基础架构，更加偏重于硬件
+PAAS：云平台,for example, SageMaker which provide the platform for ML, such as tensorflow
+SAAS：such as email box, could disk, office 365 etc...
+
+公有云
+私有云:企业内部的云部署
+混合云：
+
+公有云厂家：aws, azure, ali, tencent and others such as google huawei ect.
+
+why we need could computation:
+1.传统计算中心花费太大，空间，硬件，供电， 网络基础架构也要部署/云计算不需要以上所述，用户只需要使用就好
+2.增加速度和灵活性（点击鼠标就能配置好）
+3.从大型规模经济中获益（厂家基础建设拿到很低价格）
+4.无需再为数据中心的运行和维护投入资金
+5.云计算有弹性: 无需猜测所欲容量
+6.几分钟内可以将业务扩展到全球（部署程序）
+
+what is AWS?
+aws:市场份额第一的厂家
+云计算服务aws:计算资源， 数据库, 存储，网络，管理与合规，多媒体服务，迁移服务，移动服务，安全与身份，其他服务（比如ML，big data）
+
+aws certification
+
+
+lesson 2
+aws history
+
+lesson 3
+aws基础服务
+-计算服务： ec2虚拟机服务。。。
+-存储服务 s3
+-网络服务：在云上规划自己的网络（云上的数据中心）， 与其他用户都是隔离开的
+-数据库服务：amazon aurora, 其他开源数据库
+-产品线：好多。。。
+
+lesson 4
+计算服务： ec2, ecs, auto scaling, elastic loading balancing, eks, fargate, lightsail, batch
+ecs支持的操作系统：
+ec2计费模式：
+
+微服务：
+
+无服务：无需管理底层环境和操作系统（lambada),只需要上传和执行我们的代码
+
+aws管理控制台
+
+lesson 5 存储服务
+ 不同类型存储：EBS（快速存储，分为ssd,hdd）,S3(静态网站托管）,EFS（数据中心的  服务,可以数据共享）,snowball(数据迁移)，storage gateway(云上云下联通)，glacier（不常用文件）
+
+lesson 6 网络服务
+VPC（vpc之间是相互隔离的）， cloudfront cdn...
+
+lesson 7database
+
+aws support : rds(relational database), non-relational(dynamoDB), elasticcache, graph, time-series, ledger
+
+lesson 8 others
+
+support machine learning packages/frameworks
+SageMaker: for AI and ML(提供了一个平台，运行模型，以及部署）
+
+IoT：
+大数据服务：
+quick sight（BI）
