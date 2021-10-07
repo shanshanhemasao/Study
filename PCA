@@ -1,0 +1,8 @@
+PCA
+Instead of describing the data with the original features, we describe it with its axes of variation (rotate the axes based on the variation)
+theoretically, the number of principal components the same with the number of orginal features, but in most of the cases, we only use the first two (normally take 80% of the variation)
+The principal components are the linear combinations(weighted sum(components' loads) of original features.
+For non-standardised data, variation is covariance/ for standardized data, variation is correlation.
+Percent of explained variance
+Ways to use PCA for feature engineering: dimension reduction(multicolinearity)/ anormaly detection (low variance components) / increase signal-to-noise ratio (noise reduction) / decorrelation
+Best Practice of PCA: numeric variables only; standardization; sensitive to outliers 
